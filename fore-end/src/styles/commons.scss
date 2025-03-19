@@ -1,0 +1,72 @@
+// status color
+$primary-color: #3873f0;
+$link-color: #1890ff;
+$success-color: #12bf87;
+$warning-color: #f67770;
+$error-color: #f55151;
+
+// common used color
+$gray-0: #202020;
+$gray-1: #505050;
+$gray-2: #808080;
+$gray-3: #f1f1f1;
+$white: #ffffff;
+
+// font size
+$size-12: 12px;
+$size-14: 14px;
+$size-16: 16px;
+
+// padding size
+$padding-4: 4px;
+$padding-8: 8px;
+$padding-12: 12px;
+$padding-20: 20px;
+
+body {
+  padding: 0px;
+  margin: 0px;
+  line-height: 1.5;
+  color: $gray-0;
+  font-size: $size-14;
+  background-color: $white;
+  transition: all 0.3s;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  padding: 0px;
+  margin: 0px;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}

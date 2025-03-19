@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "winston": "^3.17.0"
+  }
+}
