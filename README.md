@@ -13,7 +13,7 @@ Comment Wall 是一个允许用户发布留言、评论和反馈的应用。前�
 
 ## 项目结构
 
-[structure.md](./structure.md)
+[structure.md](./structure.txt)
 
 ---
 
